@@ -12,6 +12,14 @@ const guildSchema = mongoose.Schema({
     logChannel: {
         'type': String,
         'default': DEFAULT_GUILD_SETTINGS.logChannel
+    },
+    work_cooldown: {
+      'type': String,
+      'default': DEFAULT_GUILD_SETTINGS.work_cooldown
+    },
+    work_gain: {
+      'type': String,
+      'default': DEFAULT_GUILD_SETTINGS.work_gain
     }
 });
 
